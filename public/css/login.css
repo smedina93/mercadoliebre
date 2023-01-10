@@ -1,0 +1,43 @@
+body {background-color:lightgray;
+    font-family: roboto;
+    font-size: 13px;
+
+}
+header {
+    background: #E2D517;
+}
+header img{
+    width:230px
+}
+main.login{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+div.datos{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    margin-bottom: 8px;
+    width:230px
+}
+input {
+    flex-grow:1;
+}
+div.button{
+    display:flex;
+    justify-content: center; 
+    margin-bottom: 8px;
+}
+button{
+    width:130px;
+    height: 30px;
+    margin-top:9px;
+    border-radius: 8px solid gray;
+    transition: all 0.3s ;
+}
+button:hover{
+ background-color:rgb(78, 53, 238) ;
+ color:antiquewhite;
+}
